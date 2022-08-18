@@ -27,13 +27,21 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <nav></nav>
-        <div class="logo"></div>
-        <div class="search"></div>
+    <header class="sticky top-0 bg-white">
+        <section class="flex justify-between py-2 px-6 items-center">
+          <nav>
+            <a href="#"><i class="fa-solid fa-bars text-2xl text-[rgba(0,0,0,.5)]"></i></a>
+          </nav>
+          <div class="logo">
+            <img src="img/RODE_Logo_87x51_RGB.svg" alt="logo" class="w-[30%] mx-auto">
+          </div>
+          <div class="search">
+            <a href="#"><i class="fa-solid fa-magnifying-glass text-2xl text-[rgba(0,0,0,.5)]"></i></a>
+          </div>
+        </section>
     </header>
     <!-- Welcome Section -->
-    <section class="welcome-section lg:bg-[url('img/welcome-bg.jpg')] bg-auto bg-center bg-no-repeat lg:pt-40 lg:pb-20 bg-black">
+    <section class="welcome-section lg:bg-[url('img/welcome-bg.jpg')] bg-auto bg-center bg-cover bg-no-repeat lg:pt-40 lg:pb-20 bg-black">
         <div class="container mx-auto">
           <!-- bg-div for below lg screen -->
           <div class="block lg:hidden bg-[url('img/welcome-bg.jpg')] h-64 sm:h-96   bg-cover">
@@ -54,7 +62,7 @@
         </div>
     </section>
     <!-- NTH-100 Section -->
-    <Section class="nth-100-section lg:bg-[url('img/perfect-bg.jpg')] bg-auto bg-center bg-no-repeat lg:pt-40 lg:pb-20 bg-white py-20">
+    <Section class="nth-100-section lg:bg-[url('img/perfect-bg.jpg')] bg-auto bg-center bg-cover bg-no-repeat lg:pt-40 lg:pb-20 bg-white py-20">
       <div class="container mx-auto">
         <div class="lg:flex">
           <div class="lg:w-[40%] p-6 lg:p-0">
@@ -72,7 +80,7 @@
       </div>
     </Section>
     <!-- NT-USB Section -->
-    <section class="nt-usb-section lg:bg-[url('img/sound-quality-bg.jpg')] bg-auto bg-center bg-no-repeat lg:pt-40 lg:pb-20 bg-white">
+    <section class="nt-usb-section lg:bg-[url('img/sound-quality-bg.jpg')] bg-auto bg-center bg-cover bg-no-repeat lg:pt-40 lg:pb-20 bg-white">
       <div class="container mx-auto">
         <!-- bg-div for below lg screen -->
         <div class="block lg:hidden bg-[url('img/sound-quality-bg.jpg')] h-64 sm:h-96   bg-cover">
@@ -94,7 +102,7 @@
       </div>
     </section>
     <!-- POD MIC Section -->
-    <section class="pod-mic-section lg:bg-[url('img/POD-MIC-bg.jpg')] bg-auto bg-center bg-no-repeat lg:pt-40 lg:pb-20 py-20">
+    <section class="pod-mic-section lg:bg-[url('img/POD-MIC-bg.jpg')] bg-auto bg-center bg-cover bg-no-repeat lg:pt-40 lg:pb-20 py-20">
       <div class="container mx-auto">
         <!-- bg-div for below lg screen -->
         <div class="block lg:hidden bg-[url('img/POD-MIC-bg.jpg')] h-40 sm:h-64   bg-cover">
@@ -115,7 +123,7 @@
       </div>
     </section>
     <!-- Wireless Section -->
-    <section class="wireless-section lg:bg-[url('img/wireless-bg.jpg')] bg-auto bg-center bg-no-repeat lg:pt-40 lg:pb-20 pb-0">
+    <section class="wireless-section lg:bg-[url('img/wireless-bg.jpg')] bg-auto bg-center bg-cover bg-no-repeat lg:pt-40 lg:pb-20 pb-0">
       <div class="container mx-auto">
         <!-- bg-div for below lg screen -->
         <div class="block lg:hidden bg-[url('img/wireless-bg.jpg')] h-64 sm:h-96   bg-cover">
@@ -136,7 +144,7 @@
       </div>
     </section>
     <!-- USB MINI Section -->
-    <section class="pod-mic lg:bg-[url('img/usb-mini-bg.jpg')] bg-auto bg-center bg-no-repeat lg:pt-40 lg:pb-20 bg-white py-20">
+    <section class="pod-mic lg:bg-[url('img/usb-mini-bg.jpg')] bg-auto bg-center bg-cover bg-no-repeat lg:pt-40 lg:pb-20 bg-white py-20">
       <div class="container mx-auto">
         <!-- bg-div for below lg screen -->
         <div class="block lg:hidden bg-[url('img/usb-mini-bg.jpg')] h-40 sm:h-64   bg-cover">
@@ -162,17 +170,17 @@
         <div class="sm:absolute bg-white -top-12 container">
           <h2 class="text-center lg:py-6 text-4xl font-semibold text-[#767676] sm:px-0 px-6">Explore The RØDE Range</h2>
         </div>
-        <div class="bg-[url(img/microphone-bg.png)] bg-cover bg-no-repeat	h-72 mb-6">
-          <img src="img/images_page_1_modules_5364_microphones-text.svg" alt="" class="lg:py-28 py-32">
+        <div class="bg-[url(img/microphone-bg.png)] bg-cover bg-no-repeat	h-40 sm:h-72 mb-6">
+          <img src="img/images_page_1_modules_5364_microphones-text.svg" alt="" class="lg:py-28 py-20 sm:py-32">
         </div>
-        <div class="bg-[url(img/interfaces.jpg)] bg-cover bg-no-repeat h-72 mb-6">
-          <img src="img/images_page_1_modules_5366_interfaces-text.svg" alt="" class="lg:py-28 py-32">
+        <div class="bg-[url(img/interfaces.jpg)] bg-cover bg-no-repeat h-40 sm:h-72 mb-6">
+          <img src="img/images_page_1_modules_5366_interfaces-text.svg" alt="" class="lg:py-28 py-20 sm:py-32">
         </div>
-        <div class="bg-[url(img/software.png)] bg-cover bg-no-repeat h-72 mb-6">
-          <img src="img/images_page_1_modules_5365_software-text.svg" alt="" class="lg:py-28 py-32">
+        <div class="bg-[url(img/software.png)] bg-cover bg-no-repeat h-40 sm:h-72 mb-6">
+          <img src="img/images_page_1_modules_5365_software-text.svg" alt="" class="lg:py-28 py-20 sm:py-32">
         </div>
-        <div class="bg-[url(img/accesorries.png)] bg-cover bg-no-repeat h-72 mb-6">
-          <img src="img/images_page_1_modules_5368_accessories-text.svg" alt="" class="lg:py-28 py-32">
+        <div class="bg-[url(img/accesorries.png)] bg-cover bg-no-repeat h-40 sm:h-72 mb-6">
+          <img src="img/images_page_1_modules_5368_accessories-text.svg" alt="" class="lg:py-28 py-20 sm:py-32">
         </div>
       </div>
     </section>
@@ -217,13 +225,13 @@
     <!-- Footer Section -->
     <footer class="pt-20 pb-10">
       <hr>
-      <section class="pt-10">
+      <section class="pt-10 px-6 sm:px-0">
         <div class="container mx-auto flex gap-3 md:gap-0 md:flex-row flex-col items-center justify-between py-8">
           <div class="md:w-[20%] px-4 pb-4 md:pb-0">
             <img src="img/RODE_logo_142x85_desktop_light_mode.svg" alt="img">
           </div>
           <!-- col-1 -->
-          <div class="flex gap-x-5">
+          <div class="flex gap-x-6 sm:gap-x-14">
             <div>
               <h3 class="font-semibold text-xl"><a href="#">Products</a></h3>
               <div class="flex flex-col gap-y-1">
